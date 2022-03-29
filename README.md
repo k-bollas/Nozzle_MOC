@@ -15,5 +15,3 @@ Follow these steps in order to use the tool,
 6. Select any other plot properties' parameters as they are described in the functions of Nozzle_MOC.py file.
 7. Check that Nozzle_MOC.py and PrandltMeyer.py are at the same path.
 8. Run and generate the resulted plots.
-
-===================================
