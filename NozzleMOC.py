@@ -159,12 +159,8 @@ def Plot_of_Nozzle(xw, yw, Noz, **kwargs):
                 ax.plot([x[r][c],x[r-1][c+1]],[y[r][c],y[r-1][c+1]],color=color2, linewidth=linewidth2, linestyle=linestyle2)
                 if not(display) == 'half': ax.plot([x[r][c],x[r-1][c+1]],[-y[r][c],-y[r-1][c+1]],color=color2, linewidth=linewidth2, linestyle=linestyle2)
 
-    # ax.set_yticks([])
-    # ax.set_xticks([])
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    # ax.spines['bottom'].set_visible(False)
-    # ax.spines['left'].set_visible(False)
     return fig, ax
 
 def Mach_Contour_of_Nozzle(xw, yw, Noz, **kwargs):
